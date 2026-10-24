@@ -1,4 +1,236 @@
-<h1>Rohit Mire</h1>
-<p>This is my world</p>
-<p>This is new begining</p>
-<p>And I will rule the world</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Fitness | Unleash Your Potential</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-orange-500 selection:text-white">
+
+    <!-- Header / Navigation -->
+    <header class="fixed top-0 left-0 w-full z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="text-2xl font-black tracking-wider uppercase text-white">
+                APEX<span class="text-orange-500">FITNESS</span>
+            </a>
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium">
+                <a href="#home" class="hover:text-orange-500 transition-colors">Home</a>
+                <a href="#about" class="hover:text-orange-500 transition-colors">About</a>
+                <a href="#services" class="hover:text-orange-500 transition-colors">Classes</a>
+                <a href="#pricing" class="hover:text-orange-500 transition-colors">Pricing</a>
+                <a href="#contact" class="hover:text-orange-500 transition-colors">Contact</a>
+            </nav>
+            <div>
+                <a href="#pricing" class="hidden sm:inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold text-sm px-5 py-3 rounded-full transition-all shadow-lg shadow-orange-500/20">
+                    Join Today
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative min-h-screen flex items-center justify-center pt-20 bg-[linear-gradient(to_bottom,rgba(2,6,23,0.7),rgba(2,6,23,0.9)),url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1920&auto=format&fit=crop')] bg-cover bg-center">
+        <div class="max-w-4xl mx-auto text-center px-6 py-20">
+            <span class="inline-block bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-6">
+                Transform Your Body Today
+            </span>
+            <h1 class="text-5xl md:text-7xl font-black uppercase tracking-tight leading-none mb-6">
+                Push Your Limits, <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-amber-500">Redefine Yourself</span>
+            </h1>
+            <p class="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto mb-10">
+                State-of-the-art equipment, expert trainers, and high-intensity programs built to help you achieve elite fitness levels.
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="#pricing" class="w-full sm:w-auto bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 rounded-full transition-all text-center shadow-lg shadow-orange-500/30">
+                    Start Free Trial
+                </a>
+                <a href="#services" class="w-full sm:w-auto bg-slate-900/80 hover:bg-slate-800 border border-slate-800 text-white font-bold px-8 py-4 rounded-full transition-all text-center">
+                    Explore Classes
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-slate-900/40">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div class="relative">
+                <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=1000&auto=format&fit=crop" alt="Gym interior" class="rounded-2xl shadow-2xl border border-slate-800 object-cover w-full h-[450px]">
+                <div class="absolute -bottom-6 -right-6 bg-orange-500 text-white p-6 rounded-2xl hidden sm:block shadow-xl">
+                    <p class="text-3xl font-black">10+</p>
+                    <p class="text-xs uppercase tracking-wider font-semibold">Years of Excellence</p>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-orange-500 text-sm font-bold uppercase tracking-widest mb-3">About Apex Fitness</h2>
+                <h3 class="text-3xl md:text-4xl font-black uppercase tracking-tight mb-6">Built For Serious Results</h3>
+                <p class="text-slate-400 mb-6 leading-relaxed">
+                    We aren't just a gym; we are a community dedicated to physical and mental growth. Whether you are stepping into a gym for the first time or prepping for a competition, our custom-tailored environment provides everything you need to succeed.
+                </p>
+                <div class="grid grid-cols-2 gap-6 mb-8">
+                    <div>
+                        <h4 class="text-2xl font-black text-white mb-1">500+</h4>
+                        <p class="text-slate-400 text-sm">Active Members</p>
+                    </div>
+                    <div>
+                        <h4 class="text-2xl font-black text-white mb-1">15+</h4>
+                        <p class="text-slate-400 text-sm">Expert Trainers</p>
+                    </div>
+                </div>
+                <a href="#contact" class="text-orange-500 font-bold hover:text-orange-400 flex items-center gap-2">
+                    Learn more about our philosophy <i class="fa-solid fa-arrow-right text-xs"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services / Classes Section -->
+    <section id="services" class="py-24">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-orange-500 text-sm font-bold uppercase tracking-widest mb-3">Our Programs</h2>
+                <h3 class="text-3xl md:text-4xl font-black uppercase tracking-tight">Classes Tailored For You</h3>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Service Card 1 -->
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-8 hover:border-orange-500/50 transition-all group">
+                    <div class="w-14 h-14 bg-orange-500/10 text-orange-500 rounded-xl flex items-center justify-center text-2xl font-bold mb-6 group-hover:bg-orange-500 group-hover:text-white transition-all">
+                        <i class="fa-solid fa-dumbbell"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-3">Strength & Conditioning</h4>
+                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">
+                        Build raw power, improve lifting techniques, and maximize muscle hypertrophy with targeted compound training.
+                    </p>
+                    <a href="#contact" class="text-sm font-bold text-slate-300 group-hover:text-orange-500 flex items-center gap-1 transition-colors">
+                        Book Session <i class="fa-solid fa-chevron-right text-xs"></i>
+                    </a>
+                </div>
+                <!-- Service Card 2 -->
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-8 hover:border-orange-500/50 transition-all group">
+                    <div class="w-14 h-14 bg-orange-500/10 text-orange-500 rounded-xl flex items-center justify-center text-2xl font-bold mb-6 group-hover:bg-orange-500 group-hover:text-white transition-all">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-3">HIIT & Cardio Burn</h4>
+                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">
+                        High-octane interval workouts structured to shred fat, boost metabolic rate, and improve cardiovascular endurance.
+                    </p>
+                    <a href="#contact" class="text-sm font-bold text-slate-300 group-hover:text-orange-500 flex items-center gap-1 transition-colors">
+                        Book Session <i class="fa-solid fa-chevron-right text-xs"></i>
+                    </a>
+                </div>
+                <!-- Service Card 3 -->
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-8 hover:border-orange-500/50 transition-all group">
+                    <div class="w-14 h-14 bg-orange-500/10 text-orange-500 rounded-xl flex items-center justify-center text-2xl font-bold mb-6 group-hover:bg-orange-500 group-hover:text-white transition-all">
+                        <i class="fa-solid fa-user-ninja"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-3">Personal Training</h4>
+                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">
+                        Get 1-on-1 customized guidance, dietary planning, and undivided attention from elite certified fitness coaches.
+                    </p>
+                    <a href="#contact" class="text-sm font-bold text-slate-300 group-hover:text-orange-500 flex items-center gap-1 transition-colors">
+                        Book Session <i class="fa-solid fa-chevron-right text-xs"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-24 bg-slate-900/40 border-t border-slate-900">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-orange-500 text-sm font-bold uppercase tracking-widest mb-3">Flexible Pricing</h2>
+                <h3 class="text-3xl md:text-4xl font-black uppercase tracking-tight">Choose Your Membership</h3>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Plan 1 -->
+                <div class="bg-slate-900 border border-slate-800 rounded-3xl p-8 flex flex-col justify-between">
+                    <div>
+                        <h4 class="text-lg font-bold text-slate-400 uppercase tracking-wider mb-2">Monthly Basic</h4>
+                        <div class="text-4xl font-black mb-6">$39<span class="text-sm font-normal text-slate-400"> /month</span></div>
+                        <ul class="space-y-4 text-sm text-slate-300 mb-8">
+                            <li class="flex items-center gap-3"><i class="fa-solid fa-check text-orange-500"></i> Full Gym Access</li>
+                            <li class="flex items-center gap-3"><i class="fa-solid fa-check text-orange-500"></i> Locker Room Use</li>
+                            <li class="flex items-center gap-3 text-slate-600"><i class="fa-solid fa-xmark"></i> Group Classes</li>
+                            <li class="flex items-center gap-3 text-slate-600"><i class="fa-solid fa-xmark"></i> Personal Trainer</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="w-full bg-slate-800 hover:bg-slate-700 text-white font-bold py-3 rounded-xl text-center transition-all">Get Started</a>
+                </div>
+                <!-- Plan 2 (Featured) -->
+                <div class="bg-slate-900 border-2 border-orange-500 rounded-3xl p-8 flex flex-col justify-between relative shadow-xl shadow-orange-500/10">
+                    <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-orange-500 text-white text-xs font-bold uppercase tracking-widest px-4 py-1 rounded-full">
+                        Most Popular
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-bold text-orange-500 uppercase tracking-wider mb-2">Pro Access</h4>
+                        <div class="text-4xl font-black mb-6">$69<span class="text-sm font-normal text-slate-400"> /month</span></div>
+                        <ul class="space-y-4 text-sm text-slate-300 mb-8">
+                            <li class="flex items-center gap-3"><i class="fa-solid fa-check text-orange-500"></i> Full Gym Access</li>
+                            <li class="flex items-center gap-3"><i class="fa-solid fa-check text-orange-500"></i> Locker Room Use</li>
+                            <li class="flex items-center gap-3"><i class="fa-solid fa-check text-orange-500"></i> Unlimited Group Classes</li>
+                            <li class="flex items-center gap-3 text-slate-600"><i class="fa-solid fa-xmark"></i> Personal Trainer</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="w-full bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 rounded-xl text-center transition-all shadow-lg shadow-orange-500/20">Get Started</a>
+                </div>
+                <!-- Plan 3 -->
+                <div class="bg-slate-900 border border-slate-800 rounded-3xl p-8 flex flex-col justify-between">
+                    <div>
+                        <h4 class="text-lg font-bold text-slate-400 uppercase tracking-wider mb-2">Elite VIP</h4>
+                        <div class="text-4xl font-black mb-6">$129<span class="text-sm font-normal text-slate-400"> /month</span></div>
+                        <ul class="space-y-4 text-sm text-slate-300 mb-8">
+                            <li class="flex items-center gap-3"><i class="fa-solid fa-check text-orange-500"></i> Full Gym Access</li>
+                            <li class="flex items-center gap-3"><i class="fa-solid fa-check text-orange-500"></i> VIP Locker & Sauna</li>
+                            <li class="flex items-center gap-3"><i class="fa-solid fa-check text-orange-500"></i> Unlimited Group Classes</li>
+                            <li class="flex items-center gap-3"><i class="fa-solid fa-check text-orange-500"></i> 2x Weekly Personal Trainer</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="w-full bg-slate-800 hover:bg-slate-700 text-white font-bold py-3 rounded-xl text-center transition-all">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section / Footer -->
+    <footer id="contact" class="bg-slate-950 border-t border-slate-900 pt-20 pb-12">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+            <div class="md:col-span-2">
+                <a href="#" class="text-2xl font-black tracking-wider uppercase text-white inline-block mb-4">
+                    APEX<span class="text-orange-500">FITNESS</span>
+                </a>
+                <p class="text-slate-400 text-sm max-w-sm mb-6 leading-relaxed">
+                    Equipping you with the tools, environment, and motivation needed to surpass your fitness goals. Join our community today.
+                </p>
+                <div class="flex space-x-4 text-slate-400">
+                    <a href="#" class="w-10 h-10 bg-slate-900 rounded-full flex items-center justify-center hover:text-orange-500 hover:bg-slate-800 transition-all"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="w-10 h-10 bg-slate-900 rounded-full flex items-center justify-center hover:text-orange-500 hover:bg-slate-800 transition-all"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="w-10 h-10 bg-slate-900 rounded-full flex items-center justify-center hover:text-orange-500 hover:bg-slate-800 transition-all"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div>
+                <h4 class="text-white font-bold uppercase tracking-wider text-sm mb-4">Quick Links</h4>
+                <ul class="space-y-2 text-sm text-slate-400">
+                    <li><a href="#home" class="hover:text-orange-500 transition-colors">Home</a></li>
+                    <li><a href="#about" class="hover:text-orange-500 transition-colors">About Us</a></li>
+                    <li><a href="#services" class="hover:text-orange-500 transition-colors">Classes</a></li>
+                    <li><a href="#pricing" class="hover:text-orange-500 transition-colors">Pricing Plans</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold uppercase tracking-wider text-sm mb-4">Visit Us</h4>
+                <p class="text-slate-400 text-sm mb-2"><i class="fa-solid fa-location-dot text-orange-500 mr-2"></i> 123 Fitness Ave, Muscle City</p>
+                <p class="text-slate-400 text-sm mb-2"><i class="fa-solid fa-phone text-orange-500 mr-2"></i> +1 (555) 234-5678</p>
+                <p class="text-slate-400 text-sm"><i class="fa-solid fa-envelope text-orange-500 mr-2"></i> support@apexfitness.com</p>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-6 pt-8 border-t border-slate-900 text-center text-xs text-slate-600">
+            &copy; 2026 Apex Fitness. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
